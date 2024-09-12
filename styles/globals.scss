@@ -1,0 +1,39 @@
+$primary_color: #49c5b6;
+$secondary_color: #ff9398;
+$primaryDark_color: #eb1461;
+$textGray_color: #909398;
+$bgLight_color: #f5f9ff;
+$bgDark_color: #2b2b2b;
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/font/Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/font/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/font/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+html {
+  font-size: 16px;
+}
